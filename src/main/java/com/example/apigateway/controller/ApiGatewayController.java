@@ -36,7 +36,7 @@ public class ApiGatewayController {
 	 * ZIPファイル取得画面を表示する
 	 * @return ZIPファイル取得画面のテンプレート名
 	 */
-	@GetMapping("/")
+	@GetMapping("/getZip_OP8")
 	public String showLoginForm() {
 		return "zipDownload";
 	}
