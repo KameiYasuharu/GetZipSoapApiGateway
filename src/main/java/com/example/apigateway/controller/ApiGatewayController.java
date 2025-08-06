@@ -45,7 +45,7 @@ public class ApiGatewayController {
 	 * API Gateway経由でZIPファイルを取得する
 	 * @return ZIPファイルを含むレスポンスエンティティ
 	 */
-	@GetMapping("/ApiGateway")
+	@GetMapping("/ApiGateway_OP8")
 	@ResponseBody
 	public ResponseEntity<InputStreamResource> zipGateway() {
 		try {
@@ -97,3 +97,4 @@ public class ApiGatewayController {
 		}
 	}
 }
+
